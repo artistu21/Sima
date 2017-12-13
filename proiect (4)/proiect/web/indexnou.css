@@ -1,0 +1,139 @@
+@charset "utf-8";
+body{
+background-color:#27586B;
+font-family:Arial, verdana, "sans-serif";
+background-image:url(img/lots_of_books.jpg);
+}
+#container
+{
+margin:0px auto;
+width:90%;
+height: 90%;
+
+padding:3px;
+}
+.pozaheader{
+
+ width:90%;
+ height:90%;
+}
+#header {
+background-image: url(eu.png);
+height:265px;
+ background-color: #007889;
+}
+#header h1{
+	color:#000;
+	margin-left:5px;
+       
+} 
+#continut{
+	float:left;
+ margin: 0 0 10px 10px;
+
+}
+
+
+#footer {
+	
+text-align:center;
+}
+#left{
+	text-align: center;
+	padding: 3px;
+	width: 170px;
+	float: left;
+	border:3px inset #AA7439;
+	border-radius: 10px;
+}
+#left2{
+	text-align: center;
+	padding: 3px;
+	width: 170px;
+        margin: 5px 0px 0px 0px;
+	float: left;
+	border:3px inset #AA7439;
+	border-radius:10px;
+}
+#right
+{      margin:0px auto;
+	text-align: center;
+	padding:3px;
+	margin: 12px 0px 0px 40px;
+	width: 600px;
+	float: left;
+	border:3px inset #AA7439;
+border-radius: 10px;
+}
+#right2
+{
+	text-align: left;
+	padding:3px;
+	margin: 12px 0px 0px 10px;
+	width: 800px;
+	float: left;
+	border:3px inset #AA7439;
+        border-radius: 10px;
+        background-color:#FFF4EB; 
+}
+
+.meniu{
+    background-color: #151D23;
+    overflow: auto;
+	width: 100%
+}
+
+
+.meniu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	transition:0.4s;
+	
+}
+
+
+.meniu a:hover {
+    background-color: #AA8939;
+    color: black;
+}
+#clear{
+clear:both;
+	
+}
+.center{ text-align: center;}
+.culoareagri{color: graytext ;
+}
+.width{width: 70%;}
+td,th{border-bottom: 1px solid #cccccc;}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(odd) {background-color: #f2f2f2;}
+.rosu{color: red;}
+.button {
+    
+    background-color: #007889; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+.button2:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+
+
+
